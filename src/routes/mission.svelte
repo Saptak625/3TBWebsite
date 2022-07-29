@@ -3,6 +3,11 @@
     import Footer from '../components/Footer.svelte';
 </script>
 
+<svelte:head>
+    <title>Our Mission</title>
+</svelte:head>
+
+
 <Navbar/>
 <!--Main Document-->
 <div class="d-flex flex-column justify-content-center text-center p-4">

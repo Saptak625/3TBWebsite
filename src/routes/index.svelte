@@ -3,6 +3,11 @@
     import Footer from '../components/Footer.svelte';
 </script>
 
+<svelte:head>
+    <title>3 Tiny Bones</title>
+</svelte:head>
+
+
 <Navbar/>
 <!--Banner-->
 <div class="d-block container-fluid" style="background-color: orange;">
