@@ -29,8 +29,8 @@
   </div>
 
   <!--Main Body-->
-  <div class="row py-4">
-    <div class="col">
+  <div class="d-flex align-items-stretch py-4">
+    <div class="">
       <!--Other Content-->
       <div style="background-color: teal;">
         <div class="row p-3">
@@ -46,10 +46,18 @@
           </div>
         </div>
       </div>
+      <div class="mt-4 p-3 text-center" style="background-color: turquoise;">
+        <h1 class="pb-3">Our Partners</h1>
+          <img src="/hhf.png" alt="" height="150px">
+          <img src="/hyperacusis.png" alt="" height="150px">
+          <img src="/macks.png" alt="" height="150px">
+          <img src="/earguru.png" alt="" height="150px">
+          <img src="/earpeace.png" alt="" height="150px">
+      </div>
     </div>
-    <div class="col-md-auto px-4 overflow-auto">
+    <div class="w-25 ps-2 pe-4 overflow-auto">
       <!--Twitter Content-->
       <a class="twitter-timeline" href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-  </div>
+</div>
 <Footer/>
