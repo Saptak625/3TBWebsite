@@ -73,8 +73,10 @@
     <h3 class="pt-4">All Initiatives</h3>
     <hr class="mx-auto w-75">
 
-    <div class="container">
-        <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
             <div class="m-2 col card mx-3">
                 <img src="/signlang.png" class="card-img-top" alt="2 people talking with sign language">
                 <div class="card-body">
@@ -106,48 +108,61 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="m-2 col card mx-3">
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <div class="m-2 col card mx-3">
+                    <img src="/logo.png" class="card-img-top p-4" alt="3TB Logo">
+                    <div class="card-body">
+                    <h5 class="card-title">HEAR Better Pledge</h5>
+                    <p class="card-text">A pledge to healthier hearing built on 4 simple principles: </p>
+                    <ul class="list-group list-group-flush text-start">
+                        <li class="list-group-item"><strong>H</strong>earing Safety</li>
+                        <li class="list-group-item"><strong>E</strong>arplug Usage</li>
+                        <li class="list-group-item"><strong>A</strong>way from Loud Noises</li>
+                        <li class="list-group-item"><strong>R</strong>ecognizing Harmful Sounds</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary my-3">Learn More</a>
+                    </div>
+                </div>
+                <div class="m-2 col card mx-3">
                 <img src="/logo.png" class="card-img-top p-4" alt="3TB Logo">
                 <div class="card-body">
-                <h5 class="card-title">HEAR Better Pledge</h5>
-                <p class="card-text">A pledge to healthier hearing built on 4 simple principles: </p>
+                <h5 class="card-title">Safe Hearing Zones</h5>
+                <p class="card-text">We believe our ears should be safe wherever we go, for whichever journey we embark on. Safe Hearing Zones exhibit 3 key principles:</p>
                 <ul class="list-group list-group-flush text-start">
-                    <li class="list-group-item"><strong>H</strong>earing Safety</li>
-                    <li class="list-group-item"><strong>E</strong>arplug Usage</li>
-                    <li class="list-group-item"><strong>A</strong>way from Loud Noises</li>
-                    <li class="list-group-item"><strong>R</strong>ecognizing Harmful Sounds</li>
+                    <li class="list-group-item">Hearing Safety at Events</li>
+                    <li class="list-group-item">Hearing Health Education</li>
+                    <li class="list-group-item">Hearing Support</li>
                 </ul>
                 <a href="#" class="btn btn-primary my-3">Learn More</a>
                 </div>
             </div>
-            <div class="m-2 col card mx-3">
-            <img src="/logo.png" class="card-img-top p-4" alt="3TB Logo">
-            <div class="card-body">
-            <h5 class="card-title">Safe Hearing Zones</h5>
-            <p class="card-text">We believe our ears should be safe wherever we go, for whichever journey we embark on. Safe Hearing Zones exhibit 3 key principles:</p>
-            <ul class="list-group list-group-flush text-start">
-                <li class="list-group-item">Hearing Safety at Events</li>
-                <li class="list-group-item">Hearing Health Education</li>
-                <li class="list-group-item">Hearing Support</li>
-            </ul>
-            <a href="#" class="btn btn-primary my-3">Learn More</a>
-            </div>
-        </div>
-            <div class="m-2 col card mx-3">
-                <img src="/noise_hazards.png" class="card-img-top" alt="Noise Hazards Logo">
-                <div class="card-body">
-                    <h5 class="card-title">Noise Hazards Campaign</h5>
-                    <p class="card-text">Learn to appreciate the work that our ears do through a series of videos and a video game about 10 common noise hazards we face in our everyday lives such as:</p>
-                    <ul class="list-group list-group-flush text-start">
-                        <li class="list-group-item">Fireworks</li>
-                        <li class="list-group-item">Kitchen Appliances</li>
-                        <li class="list-group-item">Power Tools</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary my-3">Learn More</a>
+                <div class="m-2 col card mx-3">
+                    <img src="/noise_hazards.png" class="card-img-top" alt="Noise Hazards Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Noise Hazards Campaign</h5>
+                        <p class="card-text">Learn to appreciate the work that our ears do through a series of videos and a video game about 10 common noise hazards we face in our everyday lives such as:</p>
+                        <ul class="list-group list-group-flush text-start">
+                            <li class="list-group-item">Fireworks</li>
+                            <li class="list-group-item">Kitchen Appliances</li>
+                            <li class="list-group-item">Power Tools</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary my-3">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
+    
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </div>
-</div>
 <Footer/>
