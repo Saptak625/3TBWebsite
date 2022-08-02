@@ -1,6 +1,7 @@
 <script>
 	import Navbar from '../components/Navbar.svelte';
     import Footer from '../components/Footer.svelte';
+    import Carousel from '../components/Carousel.Svelte';
 </script>
 
 <svelte:head>
@@ -9,12 +10,22 @@
 
 
 <Navbar/>
-<div class="d-flex flex-column justify-content-center text-center p-4">
+<div class="container d-flex flex-column justify-content-center text-center p-4">
     <h1 class="p-2">Initiatives and Campaigns</h1>
     <h5 class="p-2">Learn about what we are doing to fulfill <a href="mission">our "HEAR" principles</a>!</h5>
 
     <h3 class="pt-4">Latest Initiatives</h3>
     <hr class="mx-auto w-75">
+
+    <Carousel 
+        img1="/logo.png"
+        img2="/logo.png"
+        img3="/noise_hazards.png"
+        title1="HEAR Better Pledge"
+        title2="Safe Hearing Zones"
+        title3="Noise Hazards Campaign"
+        txt1=""
+    ></Carousel>
 
     <div class="d-flex w-75 mx-auto align-items-stretch p-4">
         <div class="card mx-3" style="flex-grow: 1; flex-basis: 0;">
