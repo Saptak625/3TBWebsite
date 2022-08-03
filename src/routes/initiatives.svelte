@@ -15,7 +15,7 @@
     <h5 class="p-2">Learn about what we are doing to fulfill <a href="mission">our "HEAR" principles</a>!</h5>
 
     <h3 class="pt-4">Latest Initiatives</h3>
-    <hr class="mx-auto w-75">
+    <hr class="mx-auto w-50">
 
     <!-- <Carousel 
         img1="/logo.png"
@@ -71,9 +71,16 @@
     </div>
 
     <h3 class="pt-4">All Initiatives</h3>
-    <hr class="mx-auto w-75">
+    <hr class="mx-auto w-50">
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide w-75 mx-auto" data-bs-ride="carousel">
+        <!--Change Color of Arrows from White and Move Over More to Side-->
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <i class="fa-solid fa-angle-left fa-3x"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <i class="fa-solid fa-angle-right fa-3x"></i>
+        </button>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
@@ -156,13 +163,5 @@
     
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
     </div>
 <Footer/>

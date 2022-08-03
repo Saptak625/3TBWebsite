@@ -32,6 +32,28 @@
   <div class="d-flex align-items-stretch py-4">
     <div class="">
       <!--Other Content-->
+      <div class="mt-4 p-3 text-center">
+        <div class="w-25 mx-auto pb-3">
+          <h1>3TB Live</h1>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col px-3">
+            <h5 class="pt-4 pb-4">Listen to our radio interview on the WWDB-AM!</h5>
+          <div class="d-flex justify-content-center align-items-center py-4">
+            <audio controls class="my-5">
+              <source src="/The-Empowerment-Zone-Yaduraj-Cut.ogg" type="audio/ogg">
+              <source src="/The-Empowerment-Zone-Yaduraj-Cut.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+          </div>
+          </div>
+          <div class="col px-3">
+            <h5 class="pt-4 pb-4">Watch our interview on NBC10!</h5>
+            <iframe width="541" height="329" src="https://www.youtube.com/embed/MxFUbXYsVi8" title="3 Tiny Bones on NBC10!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
       <div style="background-color: teal;">
         <div class="row p-3">
           <div class="d-inline col d-flex justify-content-center p-3">
@@ -46,18 +68,67 @@
           </div>
         </div>
       </div>
-      <div class="mt-4 p-3 text-center" style="background-color: turquoise;">
-        <h1 class="pb-3">Our Partners</h1>
+      <div class="my-4 p-3 text-center">
+        <div class="w-25 mx-auto pb-3">
+          <h1>Our Partners</h1>
+          <hr>
+        </div>
           <img src="/hhf.png" alt="" height="150px">
           <img src="/hyperacusis.png" alt="" height="150px">
           <img src="/macks.png" alt="" height="150px">
           <img src="/earguru.png" alt="" height="150px">
           <img src="/earpeace.png" alt="" height="150px">
       </div>
+      
+      <div class="mt-3 w-50 mx-auto">
+        <h3 class="text-center">Learn about hearing and the ear!</h3>
+        <hr>
+      </div>
+      <div id="carouselExampleControls" class="carousel carousel-dark slide w-75 mx-auto" data-bs-ride="carousel">
+        <!--Change Color of Arrows from White and Move Over More to Side-->
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <i class="fa-solid fa-angle-left fa-3x"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <i class="fa-solid fa-angle-right fa-3x"></i>
+        </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+                <div class="col card mx-3 px-0">
+                    <img src="/Fact-1.png" class="card-img-top" alt="Fact 1">
+                </div>
+                <div class="col card mx-3 px-0">
+                <img src="/Fact-2.png" class="card-img-top" alt="Fact 2">
+            </div>
+                <div class="col card mx-3 px-0">
+                    <img src="/Fact-3.png" class="card-img-top" alt="Fact 3">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+              <div class="col card mx-3 px-0">
+                  <img src="/Fact-4.png" class="card-img-top" alt="Fact 4">
+              </div>
+              <div class="col card mx-3 px-0">
+              <img src="/Fact-5.png" class="card-img-top" alt="Fact 5">
+          </div>
+              <div class="col card mx-3 px-0">
+                  <img src="/Fact-6.png" class="card-img-top" alt="Fact 6">
+              </div>
+          </div>
+      </div>
+          </div>
+        </div>
     </div>
     <div class="w-25 ps-2 pe-4 overflow-auto">
       <!--Twitter Content-->
-      <a class="twitter-timeline" href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-tweet-limit="4" href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
+
+    <!-- <Carousel
+        img1="/"
+      ></Carousel> -->
 <Footer/>
