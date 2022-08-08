@@ -30,7 +30,7 @@
 
   <!--Main Body-->
   <div class="d-flex align-items-stretch py-4">
-    <div class="">
+    <div class="w-75">
       <!--Other Content-->
       <div class="mt-4 p-3 text-center">
         <div class="w-25 mx-auto pb-3">
