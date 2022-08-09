@@ -122,9 +122,9 @@
           </div>
         </div>
     </div>
-    <div class="w-25 ps-2 pe-4 overflow-auto">
+    <div class="w-25 ps-2 pe-4">
       <!--Twitter Content-->
-      <a class="twitter-timeline" data-tweet-limit="4" href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-height="100%" href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
 
