@@ -3,7 +3,7 @@
   </script>
   
   <!--Nav Bar-->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
           <img class="ps-3" {src} height="60px" alt="">
@@ -14,7 +14,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+            <li class="custom-nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our Team
               </a>
@@ -26,16 +26,16 @@
                 <li><a class="dropdown-item" href="#">Advisors</a></li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li class="custom-nav-item">
               <a class="nav-link" href="mission">Mission</a>
             </li>
-            <li class="nav-item">
+            <li class="custom-nav-item">
               <a class="nav-link" href="#">Pledge</a>
             </li>
-            <li class="nav-item">
+            <li class="custom-nav-item">
               <a class="nav-link" href="initiatives">Initiatives</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="custom-nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Get Involved
               </a>

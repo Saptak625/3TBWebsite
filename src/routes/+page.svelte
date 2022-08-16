@@ -2,9 +2,9 @@
     <title>3 Tiny Bones</title>
 </svelte:head>
 
-<div class=" alert alert-primary alert-dismissible fade show w-50 start-50 mt-3 translate-middle-x" role="alert">
-  <strong>Pledge to better hearing!</strong> Take the hear better pledge <a href="#pledge-banner">here.</a>
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+<div class=" alert alert-primary alert-dismissible fade show w-75 start-50 mt-3 translate-middle-x text-center" role="alert">
+  <strong class="fs-4">Protect your hearing by taking the hear better pledge!</strong>
+  <a href="#"><button type="button" class="btn btn-primary btn-lg mx-4">Pledge Now</button></a>
 </div>
 <!--Banner-->
 <div class="d-block container-fluid text-white bg-theme-orange">
@@ -15,8 +15,7 @@
         <h5 class="pt-4 pb-4">3 Tiny Bones is a student-led 501(c)(3) nonprofit destigmatizing hearing loss and
           educating communities on healthy hearing to create a more inclusive society. We’re also helping deaf/hard of
           hearing youth to overcome their challenges and connect with one another.</h5>
-        <a href="mission" role="button" class="mt-5 rounded-pill btn btn-lg btn-warning">Our Mission Statement
-        </a>
+        <a href="mission" role="button" class="mt-5 btn btn-lg btn-primary">Read Our Mission Statement</a>
       </div>
       <div class="d-inline col d-flex justify-content-center p-3">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/DmF2OKm8IU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -55,7 +54,7 @@
       <div class="text-white bg-theme-blue">
         <div class="row p-3">
           <div class="d-inline col d-flex justify-content-center p-3">
-            <iframe width="550" height="300" src="https://www.youtube.com/embed/zrmsdmKJl9grel=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zrmsdmKJl9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
           </div>
           <div class="col">
             <h1>Our Pledge</h1>
