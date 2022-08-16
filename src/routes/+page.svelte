@@ -3,15 +3,15 @@
 </svelte:head>
 
 <!--Banner-->
-<div class="d-block container-fluid" style="background-color: orange;">
+<div class="d-block container-fluid text-white bg-theme-orange">
     <div class="row p-5">
       <div class="d-inline col">
         <h1>WE AIM TO REACH EVERY EAR</h1>
-        <hr>
+        <hr class="border border-2">
         <h5 class="pt-4 pb-4">3 Tiny Bones is a student-led 501(c)(3) nonprofit destigmatizing hearing loss and
           educating communities on healthy hearing to create a more inclusive society. We’re also helping deaf/hard of
           hearing youth to overcome their challenges and connect with one another.</h5>
-        <a href="mission.html" role="button" class="mt-5 btn btn-lg btn-primary">Read Our Mission Statement
+        <a href="mission" role="button" class="mt-5 btn btn-lg btn-primary">Read Our Mission Statement
         </a>
       </div>
       <div class="d-inline col d-flex justify-content-center p-3">
@@ -47,14 +47,14 @@
           </div>
         </div>
       </div>
-      <div style="background-color: teal;">
+      <div class="text-white bg-theme-blue">
         <div class="row p-3">
           <div class="d-inline col d-flex justify-content-center p-3">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zrmsdmKJl9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col">
             <h1>Our Pledge</h1>
-            <hr>
+            <hr class="border border-2">
             <h5 class="pt-4 pb-4">Enter some content for the pledge and why they should do it here.</h5>
             <a href="#" role="button" class="mt-5 btn btn-lg btn-primary">Take the Pledge
             </a>

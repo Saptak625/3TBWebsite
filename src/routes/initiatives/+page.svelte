@@ -68,10 +68,10 @@
     <div id="carouselExampleControls" class="carousel carousel-dark slide w-75 mx-auto" data-bs-ride="carousel">
         <!--Change Color of Arrows from White and Move Over More to Side-->
         <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <i class="fa-solid fa-angle-left fa-3x"></i>
+            <i class="fa-solid fa-angle-left fa-3x text-dark"></i>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <i class="fa-solid fa-angle-right fa-3x"></i>
+            <i class="fa-solid fa-angle-right fa-3x text-dark"></i>
         </button>
         <div class="carousel-inner">
           <div class="carousel-item active">

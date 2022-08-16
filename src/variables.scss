@@ -1,6 +1,17 @@
 /* Variables and mixins declared here will be available in all other SCSS files */
 @import 'bootstrap/scss/functions'; /* Override Bootstrap's variables here */
 @import 'bootstrap/scss/variables';
+$custom-colors: (
+    "theme-orange": #ea6e51,
+    "theme-blue": #264655,
+    "theme-turquoise": #2da090,
+    "yellow": #e9c46b,
+    "turquoise": #2a9d8e,
+    "orange": #e66f51,
+    "blue": #264653
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
 @import 'bootstrap/scss/maps';
 @import 'bootstrap/scss/mixins';
 @import 'bootstrap/scss/utilities';
