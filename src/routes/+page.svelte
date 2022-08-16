@@ -2,16 +2,21 @@
     <title>3 Tiny Bones</title>
 </svelte:head>
 
+<Navbar/>
+<div class=" alert alert-primary alert-dismissible fade show w-50 start-50 mt-3 translate-middle-x" role="alert">
+  <strong>Pledge to better hearing!</strong> Take the hear better pledge <a href="#pledge-banner">here.</a>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 <!--Banner-->
 <div class="d-block container-fluid text-white bg-theme-orange">
     <div class="row p-5">
       <div class="d-inline col">
-        <h1>WE AIM TO REACH EVERY EAR</h1>
-        <hr class="border border-2">
+        <h1 class="text-white">WE AIM TO REACH EVERY EAR</h1>
+        <hr>
         <h5 class="pt-4 pb-4">3 Tiny Bones is a student-led 501(c)(3) nonprofit destigmatizing hearing loss and
           educating communities on healthy hearing to create a more inclusive society. We’re also helping deaf/hard of
           hearing youth to overcome their challenges and connect with one another.</h5>
-        <a href="mission" role="button" class="mt-5 btn btn-lg btn-primary">Read Our Mission Statement
+        <a href="mission" role="button" class="mt-5 rounded-pill btn btn-lg btn-warning">Our Mission Statement
         </a>
       </div>
       <div class="d-inline col d-flex justify-content-center p-3">
@@ -31,9 +36,10 @@
           <hr>
         </div>
         <div class="row">
-          <div class="col px-3">
+          <div class="col card mx-3">
             <h5 class="pt-4 pb-4">Listen to our radio interview on the WWDB-AM!</h5>
           <div class="d-flex justify-content-center align-items-center py-4">
+
             <audio controls class="my-5">
               <!-- <source src="/The-Empowerment-Zone-Yaduraj-Cut.ogg" type="audio/ogg"> -->
               <source src="/The-Empowerment-Zone-Yaduraj-Cut.mp3" type="audio/mpeg">
@@ -41,16 +47,16 @@
             </audio>
           </div>
           </div>
-          <div class="col px-3">
+          <div class="col card px-3">
             <h5 class="pt-4 pb-4">Watch our interview on NBC10!</h5>
-            <iframe width="541" height="329" src="https://www.youtube.com/embed/MxFUbXYsVi8" title="3 Tiny Bones on NBC10!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="510" height="329" src="https://www.youtube.com/embed/MxFUbXYsVi8?rel=0&modestbranding=1" title="3 Tiny Bones on NBC10!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="px-3 pb-3 rounded"></iframe>
           </div>
         </div>
       </div>
       <div class="text-white bg-theme-blue">
         <div class="row p-3">
           <div class="d-inline col d-flex justify-content-center p-3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zrmsdmKJl9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/zrmsdmKJl9grel=0&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="col">
             <h1>Our Pledge</h1>
