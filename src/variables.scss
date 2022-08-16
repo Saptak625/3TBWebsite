@@ -15,3 +15,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import 'bootstrap/scss/maps';
 @import 'bootstrap/scss/mixins';
 @import 'bootstrap/scss/utilities';
+
+.social-icons:hover {
+    color: map-get($theme-colors, theme-orange) !important;
+}

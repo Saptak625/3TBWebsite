@@ -64,16 +64,16 @@
             </li>
           </ul>
           <a href="https://facebook.com/3tinybones">
-            <i class="fa-brands p-2 fa-square-facebook fa-3x text-theme-turquoise"></i>
+            <i class="fa-brands p-2 fa-square-facebook fa-3x text-theme-turquoise social-icons"></i>
           </a>
           <a href="https://twitter.com/3tinybones">
-            <i class="fa-brands p-2 fa-square-twitter fa-3x text-theme-turquoise"></i>
+            <i class="fa-brands p-2 fa-square-twitter fa-3x text-theme-turquoise social-icons"></i>
           </a>
           <a href="https://instagram.com/3tinybones">
-            <i class="fa-brands p-2 fa-square-instagram fa-3x text-theme-turquoise"></i>
+            <i class="fa-brands p-2 fa-square-instagram fa-3x text-theme-turquoise social-icons"></i>
           </a>
           <a href="https://www.youtube.com/channel/UCjpviUTybjfjJqj4GJ_NogQ/featured">
-            <i class="fa-brands p-2 fa-square-youtube fa-3x text-theme-turquoise"></i>
+            <i class="fa-brands p-2 fa-square-youtube fa-3x text-theme-turquoise social-icons"></i>
           </a>
           <form class="d-flex ps-3" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
