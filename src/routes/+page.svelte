@@ -2,7 +2,6 @@
     <title>3 Tiny Bones</title>
 </svelte:head>
 
-<Navbar/>
 <div class=" alert alert-primary alert-dismissible fade show w-50 start-50 mt-3 translate-middle-x" role="alert">
   <strong>Pledge to better hearing!</strong> Take the hear better pledge <a href="#pledge-banner">here.</a>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
