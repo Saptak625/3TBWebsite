@@ -14,37 +14,37 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="custom-nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Our Team
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Volunteers</a></li>
+                <li><a class="dropdown-item text-center nav-hover" href="#">Volunteers</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Advisors</a></li>
+                <li><a class="dropdown-item text-center nav-hover" href="#">Advisors</a></li>
               </ul>
             </li>
-            <li class="custom-nav-item">
-              <a class="nav-link" href="mission">Mission</a>
+            <li class="nav-item">
+              <a class="nav-link nav-hover" href="mission">Mission</a>
             </li>
-            <li class="custom-nav-item">
-              <a class="nav-link" href="#">Pledge</a>
+            <li class="nav-item">
+              <a class="nav-link nav-hover" href="#">Pledge</a>
             </li>
-            <li class="custom-nav-item">
-              <a class="nav-link" href="initiatives">Initiatives</a>
+            <li class="nav-item">
+              <a class="nav-link nav-hover" href="initiatives">Initiatives</a>
             </li>
-            <li class="custom-nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Get Involved
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Donate</a></li>
+                <li><a class="dropdown-item text-center nav-hover" href="#">Donate</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Volunteer</a></li>
+                <li><a class="dropdown-item text-center nav-hover" href="#">Volunteer</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -52,15 +52,15 @@
                 Learn
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Resources</a></li>
+                <li><a class="dropdown-item text-center nav-hover" href="#">Resources</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Activities</a></li>
+                <li><a class="dropdown-item text-center nav-hover" href="#">Activities</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link nav-hover" href="#">Blog</a>
             </li>
           </ul>
           <a href="https://facebook.com/3tinybones">
