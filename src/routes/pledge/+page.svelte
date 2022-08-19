@@ -5,14 +5,14 @@
       <h3 class="card-subtitle">Why take the pledge?</h3>
       <p class="card-text">Your ears will thank you! We face countless noise hazards in our lives, each of which can cause hearing loss if we do not take proper actions. To put it into perspective, <strong>1 in 5 teens already have hearing loss</strong>, and <strong>1 billion are at risk of developing it worldwide.</strong> But don’t panic—noise-induced hearing loss is 100% preventable if you practice healthy hearing habits!</p>
       <h3 class="card-subtitle">How to take the Pledge?</h3>
-      <p class="card-text">To take the pledge, simply read over the 4 aspects of HEAR below. After you’re done, scroll and click to pledge through the form below. If you would like, you can also provide your name and email (optional). Please share the HEAR pledge with friends and family so they can protect their hearing too. <strong>Happy hearing!</strong></p>
+      <p class="card-text">To take the pledge, simply read over the 4 aspects of HEAR below. After you're done, scroll and click to pledge through the form below. If you would like, you can also provide your name and email (optional). Please share the HEAR pledge with friends and family so they can protect their hearing too. <strong>Happy hearing!</strong></p>
     </div>
 
     <div class="card-group p-4 mx-auto">
         <div class="card text-center py-4">
           <div class="card-body">
             <h5 class="card-title p-2">Hear Safely</h5>
-            <p class="card-text p-2">Make sure to listen to your devices especially when using headphones or earbuds safely!</p>
+            <p class="card-text p-2">Make sure to listen to your devices, especially when using headphones or earbuds, safely!</p>
             <img src="\Listen.png" class="card-img-bottom w-50" alt="Listen at Safe Volumes">
           </div>
         </div>
@@ -33,7 +33,7 @@
         <div class="card text-center py-4">
           <div class="card-body">
             <h5 class="card-title p-2">Recognize Harmful Noise</h5>
-            <p class="card-text p-2">Be mindful of the noise around you–if it gets too loud, make sure to protect your hearing!</p>
+            <p class="card-text p-2">Be mindful of the noise around you if it gets too loud, make sure to protect your hearing!</p>
             <img src="\Mindful.png" class="card-img-bottom w-50" alt="Mindful about Noise Hazards">
           </div>
         </div>
