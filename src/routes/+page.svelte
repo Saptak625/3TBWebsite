@@ -4,14 +4,14 @@
 
 <div class=" alert alert-primary alert-dismissible fade show w-75 start-50 mt-3 translate-middle-x text-center" role="alert">
   <strong class="fs-4">Protect your hearing by taking the hear better pledge!</strong>
-  <a href="#"><button type="button" class="btn btn-primary btn-lg mx-4">Pledge Now</button></a>
+  <a href="pledge"><button type="button" class="btn btn-primary btn-lg mx-4">Pledge Now</button></a>
 </div>
 <!--Banner-->
 <div class="d-block container-fluid text-white bg-theme-orange">
     <div class="row p-5">
       <div class="d-inline col">
         <h1 class="text-white">WE AIM TO REACH EVERY EAR</h1>
-        <hr>
+        <hr class="border border-2">
         <h5 class="pt-4 pb-4">3 Tiny Bones is a student-led 501(c)(3) nonprofit destigmatizing hearing loss and
           educating communities on healthy hearing to create a more inclusive society. We’re also helping deaf/hard of
           hearing youth to overcome their challenges and connect with one another.</h5>
@@ -60,7 +60,7 @@
             <h1>Our Pledge</h1>
             <hr class="border border-2">
             <h5 class="pt-4 pb-4">Enter some content for the pledge and why they should do it here.</h5>
-            <a href="#" role="button" class="mt-5 btn btn-lg btn-primary">Take the Pledge
+            <a href="pledge" role="button" class="mt-5 btn btn-lg btn-primary">Take the Pledge
             </a>
           </div>
         </div>
@@ -121,6 +121,6 @@
     </div>
     <div class="w-25 ps-2 pe-4">
       <!--Twitter Content-->
-      <a class="twitter-timeline" data-height="100%" href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a class="twitter-timeline" data-height=100% href="https://twitter.com/3tinybones?ref_src=twsrc%5Etfw">Tweets by 3tinybones</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>

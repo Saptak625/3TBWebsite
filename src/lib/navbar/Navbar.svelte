@@ -30,7 +30,7 @@
               <a class="nav-link nav-hover" href="mission">Mission</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-hover" href="#">Pledge</a>
+              <a class="nav-link nav-hover" href="pledge">Pledge</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-hover" href="initiatives">Initiatives</a>
