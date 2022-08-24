@@ -62,8 +62,17 @@
             <label for="Comments" class="form-label"><h5>Any Comments? We're all ears!</h5></label>
             <input type="text" class="form-control" id="Comments">
           </div>
-          <div class="mb-4">
+          <div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </div>
       </form>
+      <div class="text-white p-3 text-center">
+        <h5 class="pb-2">Share the Pledge!</h5>
+        <div>
+          <i class="px-3 fa-3x fa-brands fa-facebook"></i>
+          <i class="px-3 fa-3x fa-brands fa-twitter"></i>
+          <i class="px-3 fa-3x fa-brands fa-linkedin"></i>
+          <i class="px-3 fa-3x fa-brands fa-reddit"></i>
+        </div>
+      </div>
 </div>
