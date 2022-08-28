@@ -6,6 +6,7 @@
       <p class="card-text">Your ears will thank you! We face countless noise hazards in our lives, each of which can cause hearing loss if we do not take proper actions. To put it into perspective, <strong>1 in 5 teens already have hearing loss</strong>, and <strong>1 billion are at risk of developing it worldwide.</strong> But don’t panic—noise-induced hearing loss is 100% preventable if you practice healthy hearing habits!</p>
       <h3 class="card-subtitle">How to take the Pledge?</h3>
       <p class="card-text">To take the pledge, simply read over the 4 aspects of HEAR below. After you're done, scroll and click to pledge through the form below. If you would like, you can also provide your name and email (optional). Please share the HEAR pledge with friends and family so they can protect their hearing too. <strong>Happy hearing!</strong></p>
+      <a href="#pledgeForm" class="btn btn-primary">Click to go to Pledge! (or scroll down)</a>
     </div>
 
     <div class="card-group p-4 mx-auto">
@@ -38,7 +39,7 @@
           </div>
         </div>
       </div>
-      <form action="" class="text-white px-4">
+      <form action="" class="text-white px-4" id="pledgeForm">
         <div class="mb-2">
             <h3 class="d-inline">Do you pledge to HEAR?</h3>
             <h3 class="text-danger d-inline"> *</h3>
