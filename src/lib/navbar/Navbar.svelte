@@ -60,7 +60,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-hover" href="#">Blog</a>
+              <a class="nav-link nav-hover" href="blog">Blog</a>
             </li>
           </ul>
           <a href="https://facebook.com/3tinybones">
